@@ -23,7 +23,7 @@
 module clock_divider(
     input clk,
     input rst,
-    output reg sec_clk
+    output reg clk_div
     );
     
     // Parameter for base frequency
@@ -38,7 +38,7 @@ module clock_divider(
         if (rst)
         begin
             count <= 0;
-            sec_clk <= 0;
+            clk_div <= 0;
         end
         else
         begin
@@ -46,7 +46,7 @@ module clock_divider(
             if (count == FREQ - 1)
             begin
                 count <= 0;
-                sec_clk <= ~sec_clk;
+                clk_div <= ~clk_div;
             end
         end
     end
