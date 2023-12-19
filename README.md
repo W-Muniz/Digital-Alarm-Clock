@@ -2,7 +2,7 @@
 
 Welcome to the FPGA Digital Alarm Clock project repository! 🕰️
 
-Future Enhancements
+# Future Enhancements
 
 We have exciting plans for the future of this project:
 
@@ -14,7 +14,7 @@ Expandable Alarms: Increase the number of alarms from one to three, ensuring you
 
 Custom Alarm Sounds: Elevate your waking experience by implementing a sinusoidal wave generator for creating custom alarm sounds.
 
-Getting Started
+# Getting Started
 
     Clone the repository.
 
@@ -28,9 +28,10 @@ Getting Started
 
     Wake up to the future of alarm clocks!
 
-Contributing
+# Contributing
 
 We welcome contributions! Whether you're a seasoned FPGA developer or just getting started, there are plenty of ways to get involved. Check out our contribution guidelines to get started.
-License
+
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
