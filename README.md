@@ -2,36 +2,40 @@
 
 Welcome to the FPGA Digital Alarm Clock project repository! 🕰️
 
-# Future Enhancements
+## Features
 
-We have exciting plans for the future of this project:
+- Accurate Timekeeping: Thanks to FPGA magic, this clock keeps time with incredible precision.
 
-I2C LCD Interface: Move the LCD interface from 8-bit parallel to I2C for enhanced flexibility and reduced wiring complexity.
+- LCD Display: The crystal-clear 16x2 LCD with an 8-bit parallel interface provides a visually appealing and informative display of the time.
 
-HYGRO Integration: Integrate a HYGRO sensor with an I2C interface to provide real-time temperature and humidity readings, adding a weather element to your morning routine.
+- Adaptive Brightness: An Ambient Light Sensor (ALS) dynamically adjusts the screen brightness, ensuring optimal visibility in any lighting condition.
 
-Expandable Alarms: Increase the number of alarms from one to three, ensuring you never miss an important event.
+- Customizable Alarms: Set a personalized alarm to wake up to your favorite tunes or sounds.
 
-Custom Alarm Sounds: Elevate your waking experience by implementing a sinusoidal wave generator for creating custom alarm sounds.
+- Time Formats: Choose between 24-hour and 12-hour time formats according to your preference.
 
-# Getting Started
+## Future Enhancements
 
-    Clone the repository.
+I have exciting plans for the future of this project:
 
-    bash
+- I2C LCD Interface: Move the LCD interface from 8-bit parallel to I2C for enhanced flexibility and reduced wiring complexity.
 
-    git clone https://github.com/your-username/fpga-digital-alarm-clock.git
+- HYGRO Integration: Integrate a HYGRO sensor with an I2C interface to provide real-time temperature and humidity readings, adding a weather element to your morning routine.
 
-    Follow the hardware setup instructions in the documentation.
+- Expandable Alarms: Increase the number of alarms from one to three, ensuring you never miss an important event.
 
-    Load the project onto your FPGA platform using your preferred development environment.
+- Custom Alarm Sounds: Elevate your waking experience by implementing a sinusoidal wave generator for creating custom alarm sounds.
 
-    Wake up to the future of alarm clocks!
+## Getting Started
 
-# Contributing
+1. Download the repository.
 
-We welcome contributions! Whether you're a seasoned FPGA developer or just getting started, there are plenty of ways to get involved. Check out our contribution guidelines to get started.
+1. Follow the hardware setup instructions in the documentation.
 
-# License
+1. Load the project onto your FPGA platform using Vivado.
+
+1. Wake up to the future of alarm clocks!
+
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
