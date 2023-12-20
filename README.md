@@ -1,6 +1,6 @@
-# Digital-Alarm-Clock
+# Digital Alarm Clock implemented on an FPGA platform
 
-Welcome to the FPGA Digital Alarm Clock project repository! 🕰️
+## A modern alarm clock designed using Field-Programmable Gate Array technology for precise timekeeping and customizable features
 
 ## Features
 
