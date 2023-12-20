@@ -1,6 +1,6 @@
 # Digital Alarm Clock implemented on an FPGA platform
 
-## A modern alarm clock designed using Field-Programmable Gate Array technology for precise timekeeping and customizable features
+## A modern alarm clock designed using FPGA technology for precise timekeeping and customizable features
 
 ## Features
 
